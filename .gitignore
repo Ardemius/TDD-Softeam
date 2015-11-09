@@ -1,0 +1,7 @@
+# ignore Eclipse specific files
+.project
+.classpath
+.settings
+
+# ignore target folder
+target

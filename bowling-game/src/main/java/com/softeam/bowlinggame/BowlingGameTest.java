@@ -10,7 +10,7 @@ public class BowlingGameTest {
 	private BowlingGame game = null;
 
 	@Before
-	public void setUp() throws Exception {
+	public void setUp() {
 		game = new BowlingGame();
 	}
 
@@ -57,7 +57,8 @@ public class BowlingGameTest {
 		game.roll(10);
 	}
 
-	public void testPerfectGame() throws Exception {
+	@Test
+	public void testPerfectGame() {
 		rollMany(12, 10);
 		assertEquals(300, game.score());
 	}

@@ -1,0 +1,4 @@
+# TDD-Softeam
+Examples for Softeam TDD training
+
+`TDD step by step - Roman to arabic converter.odp` are slides for a step-by-step TDD explanation of the roman to arabic number converter.
